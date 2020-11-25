@@ -19,7 +19,7 @@ import {
   ContourType,
   FillType,
   EditorStateType
-} from './';
+} from '../ts/photoeditor_type';
 
 import React, { useEffect, useRef } from 'react';
 
