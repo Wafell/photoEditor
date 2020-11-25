@@ -1,3 +1,26 @@
+import {
+  CommandHistory,
+  UndoListType,
+  RedoListType,
+  PhotoEditor,
+  CanvasType,
+  CurrentStateType,
+  SizeType,
+  ImageType,
+  FilterType,
+  TextType,
+  SelectionType,
+  ArtObjectType,
+  PrimitivesType,
+  ColorType,
+  FontType,
+  CoordinatesType,
+  ShapeType,
+  ContourType,
+  FillType,
+  EditorStateType
+} from './';
+
 import React, { useEffect, useRef } from 'react';
 
 interface CanvasProps {
