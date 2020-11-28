@@ -28,11 +28,11 @@ type PhotoEditor = {
 
 type CanvasType = {
   size: SizeType;
-  image: ImageType;
-  filter: FilterType[];
-  texts: TextType[]; //Array<TextType>
-  artObjects: ArtObjectType[];
-  primitives: PrimitivesType[];
+  // image: ImageType;
+  // filter: FilterType[];
+  // texts: TextType[]; //Array<TextType>
+  // artObjects: ArtObjectType[];
+  // primitives: PrimitivesType[];
   pixels: PixelType;
 };
 

@@ -60,7 +60,7 @@
 }
 
 .ToolBar {
-  background-color: #D17F03;
+  background-color: #d17f03;
   height: 600px;
   width: 150px;
   margin-top: 20px;
@@ -77,7 +77,6 @@
   height: 50px;
   width: 100px;
   border-radius: 15px;
-  
 }
 
 .Canvas {
