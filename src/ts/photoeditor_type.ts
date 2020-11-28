@@ -33,6 +33,7 @@ type CanvasType = {
   texts: TextType[]; //Array<TextType>
   artObjects: ArtObjectType[];
   primitives: PrimitivesType[];
+  pixels: PixelType;
 };
 
 type CurrentStateType = {
@@ -97,16 +98,14 @@ type PrimitivesType = {
   fill: FillType;
 };
 
-type ColorType = string; //{
-//     grey: 'grey';
-//     red: 'red';
-//     blue: 'blue';
-//     green: 'green';
-//     yellow: 'yellow';
-//     pink: 'pink';
-//     purple: 'purple';
-//     orange: 'orange';
-// }
+type ColorType = {
+  r: number;
+  g: number;
+  b: number;
+  a: number;
+};
+
+type PixelType = Array<Array<ColorType>>;
 
 type FontType = string; //{
 //     calibri: 'calibri';
@@ -117,11 +116,9 @@ type CoordinatesType = {
   y: number;
 };
 
-type ShapeType = string; //{
-//     circle: 'circle';
-//     triangle: 'triangle';
-//     square: 'square';
-// }
+type ShapeType = {
+  shape: "ellipse" | "rectangle" | "triangle";
+};
 
 type ContourType = {
   width: number;
